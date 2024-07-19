@@ -1,0 +1,103 @@
+main{
+    background-color: rgb(255, 177, 243);
+    width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.perfil{
+    margin-bottom: 50px;
+    clear: both;
+}
+
+.perfil img{
+    display: block;
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.perfil h4{
+    font-size: 100%;
+    color: rgb(33, 16, 16);
+    margin-bottom: 5px;
+}
+.perfil h4 :first-of-type{
+    font-size: 150%;
+}
+.perfil span:nth-child(3){
+    font-size: 70%;
+}
+.perfil span:nth-child(4){
+    font-size: 70%;
+}
+.perfil span{
+    display: block;
+}
+body{
+    background-color: rgb(255, 216, 237);
+    padding: 0px;
+}
+.carousel-inner img {
+    max-height: 300px; 
+    width: auto; 
+    object-fit: contain;
+}
+.carousel-inner .carousel-item img {
+    
+    object-fit: contain;
+    width: 50%;
+    height: 50%;
+}
+.card{
+    margin: 20px;
+
+}
+.card img{
+    max-height: 100px; 
+    width: auto; 
+    object-fit: contain;
+}
+.subtitulo {
+    color:rgb(160, 57, 219);
+    font-size: larger;
+
+}
+.card-title {
+    color: rgb(144, 8, 116);
+}
+.titulo_repo{
+    color: rgb(144, 8, 116);
+}
+.secao{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:180%;
+    color: rgb(100, 5, 81);
+    
+}
+.rounded-circle{
+    display: block;
+    float: left;
+    width: 200px;   
+    margin: 10px;
+}
+.img-thumbnail{
+    display: inline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+.flex{
+    display: flex;
+}
